@@ -24,6 +24,7 @@ body {
     position: fixed;
     padding: 10px 30px;
     transition: 0.5s;
+
     /* background-color: rgb(101, 102, 102); */
     
 }
@@ -79,6 +80,7 @@ body {
     align-items: center;
     background-color: rgb(255, 255, 255);
     padding: 20px;
+    margin: auto;
 }
 .cerfiticate{
     display: flex;
@@ -95,6 +97,82 @@ body {
     align-items: center;
     column-gap: 0.7rem;
 }
+
+/* layer_3 */
+.layer_3{
+    text-align: center;
+    padding: 35px;
+    
+}
+
+/* layer_4 */
+.layer_4{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    padding: auto;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+
+
+}
+/* layer_4_pic_1 */
+.Lay4_col_1_rowspan_2_pic_1{
+    position: relative;
+    margin-right: 1px;
+    
+
+}
+.Lay4_col_1_rowspan_2_pic_1 img{
+    width: 800px;
+    height: 900px;
+    display: block;
+    margin: auto;
+
+
+}
+.text_layer4_1{
+    width: 100%;
+    height: 90%;
+    top: 0;
+    left: 0;
+    right: 10px;
+    text-align: center;
+    position: absolute;
+    align-content: center;
+    padding: 30px;
+    margin: auto;
+    transition: 0.5s;
+}
+
+/*layer_4_pic_2*/
+.lay4_col_2{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+}
+.lay4_row_1{
+    display: flex;
+    text-align: center;
+    align-content: center;
+}
+.pic_2{
+    position: relative;
+    margin-right: 1px;
+    margin-bottom: 1px;
+}
+.text_layer4_2{
+    width: 100%;
+    height: 65%;
+    top: 0;
+    text-align: center;
+    position: absolute;
+    align-content: center;
+    transition: 0.5s;
+}
+
+/*layer_4_pic_3*/
+
 
 
 
