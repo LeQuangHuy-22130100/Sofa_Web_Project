@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header.header_home_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+
+header.header_home_menu.scrolled {
+    background-color: gray;
+}
+
+header.header_home_menu img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header.header_home_menu .menu{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    column-gap: 4cm;
+}
+header.header_home_menu .social_icon {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    column-gap: 1cm;
+}
+
+header.header_home_menu .menu li,
+header.header_home_menu .social_icon li {
+    position: relative;
+}
+
+header.header_home_menu .menu li a,
+header.header_home_menu .social_icon li a,
+header.header_home_menu .social_icon li i {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+header.header_home_menu .menu li:hover .text_header{
+    color: yellow;
+    text-decoration: underline;
+    transition: 0.4s;
+}
+
+header.header_home_menu .social_icon li:hover i {
+    transition: 0.3s;
+}
+
+header.header_home_menu .social_icon li {
+    position: relative;
+}
+header.header_home_menu .social_icon li .dropdown {
+    display: none;
+    position: absolute;
+    top: 30px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px; /* Đặt chiều rộng của dropdown */
+    text-align: left;
+    visibility: hidden;
+    opacity: 0; 
+    transition: 0.5s;
+}
+
+header.header_home_menu .social_icon li .dropdown li {
+    padding: 10px 0;
+    color: white;
+    font-size: 16px;
+    border-bottom: 1px solid gray; /* Thêm gạch ngang ngăn cách */
+    transition: 0.5s;
+}
+
+header.header_home_menu .social_icon li .dropdown li:last-child {
+    border-bottom: none; /* Bỏ gạch ngang cho phần tử cuối cùng */
+}
+
+header.header_home_menu .social_icon li:hover .dropdown {
+    display: block;
+    transition: 0.5s;
+    opacity: 1;
+    visibility: visible;
+}
+header.header_home_menu .social_icon li .dropdown:hover{
+    display: block;
+    transition: 0.5s;
+    opacity: 1;
+    visibility: visible;
+}
+
+header.header_home_menu .social_icon li .dropdown h5,
+header.header_home_menu .social_icon li .dropdown span {
+    color: white;
+    font-size: 16px;
+}
+
