@@ -4,11 +4,24 @@
     box-sizing: border-box;
 }
 
+/* Layer1 */
+.img_Background img{
+    margin-bottom: 0px ;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* Đặt dưới header */
+}
+
 header.header_home_menu {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: black;
+    background-color: rgba(128, 128, 128, 0.5);
     padding: 10px 0;
     position: fixed;
     top: 0;
@@ -21,7 +34,7 @@ header.header_home_menu {
 }
 
 header.header_home_menu.scrolled {
-    background-color: gray;
+    background-color: rgb(0, 0, 0);
 }
 
 header.header_home_menu img {
@@ -86,7 +99,7 @@ header.header_home_menu .social_icon li .dropdown li {
     padding: 10px 0;
     color: white;
     font-size: 16px;
-    border-bottom: 1px solid gray; /* Thêm gạch ngang ngăn cách */
+    border-bottom: 1px solid rgb(134, 134, 134); /* Thêm gạch ngang ngăn cách */
     transition: 0.5s;
 }
 
@@ -112,4 +125,50 @@ header.header_home_menu .social_icon li .dropdown span {
     color: white;
     font-size: 16px;
 }
+
+
+/* layer2 */
+.layer2{
+    padding-top: 17px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 27px;
+}
+
+/* layer3 */
+.layer3, .layer4, .layer5{
+    padding-top: 50px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.layer3 .text,
+.layer4 .text,
+.layer5 .text {
+    max-width: 800px; /* Giới hạn chiều rộng để cân đối */
+    margin-right: 10px; /* khoảng cách giữa text và ggMap*/
+    padding: 3px; /* Thêm khoảng cách bên trong */
+    line-height: 1.5; /*  khoảng cách dòng  */
+    font-size: 18px; /* Cỡ chữ */
+    text-align: justify; /* Căn chỉnh đều hai bên */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.layer3 .text h3,
+.layer4 .text h3,
+.layer5 .text h3  {
+    font-size: 30px;
+}
+.layer3 .text p,
+.layer4 .text p,
+.layer5 .text p {
+    color: rgb(105, 95, 92);
+}
+.layer3 .ggMap img,
+.layer4 .ggMap img,
+.layer5 .ggMap img{
+    border-radius: 10px;
+}
+
 
