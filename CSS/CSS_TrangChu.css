@@ -95,18 +95,18 @@ header.header_home_menu .social_icon li .dropdown {
     display: none;
     position: absolute;
     top: 30px;
-    background-color: black;
-    padding: 10px;
+    background-color: rgb(26, 22, 22);
+    padding: 18px;
     border-radius: 5px;
     width: 200px; /* Đặt chiều rộng của dropdown */
     text-align: left;
     visibility: hidden;
     opacity: 0; 
-    transition: 0.5s;
+    transition: 1s;
 }
 
 header.header_home_menu .social_icon li .dropdown li {
-    padding: 10px 0;
+    padding: 20px 0;
     color: white;
     font-size: 16px;
     border-bottom: 1px solid rgb(134, 134, 134); /* Thêm gạch ngang ngăn cách */
