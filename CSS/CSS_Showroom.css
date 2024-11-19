@@ -136,13 +136,20 @@ header.header_home_menu .social_icon li .dropdown span {
 }
 
 /* layer3 */
-.layer3, .layer4, .layer5{
+.layer3, .layer4{
     padding-top: 50px;
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+}
+.layer5{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .layer3 .text,
 .layer4 .text,
@@ -171,4 +178,57 @@ header.header_home_menu .social_icon li .dropdown span {
     border-radius: 10px;
 }
 
+/* footer */
+.footer{
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    padding-top: 59px;
+    background-color: black;
+    display:flex;
+    justify-content: space-evenly;
+}
+.showroom_footer{
+    display: block;
+}
+.suport_footter{
+    display: block;
+}
+.follow_footer{
+    display: block;
+}
+
+.showroom_footer h2{
+    align-items: center;
+    align-content: center;
+    color: white;
+}
+.suport_footter h2{
+    align-items: center;
+    align-content: center;
+    color: white;
+}
+.follow_footer h2{
+    align-items: center;
+    align-content: center;
+    color: white;
+} 
+
+.showroom_footer ul li{
+    list-style-type: disc;
+    color: rgb(204, 203, 203);
+    font-size: 18px;
+}
+.suport_footter ul li{
+    list-style-type: disc;
+    color: rgb(204, 203, 203);
+    font-size: 18px;
+}
+.follow_footer .icon_footer{
+    margin-top: 10px;
+}
+.follow_footer .icon_footer i{
+    margin: 3px;
+    padding: 10px;
+}
 
