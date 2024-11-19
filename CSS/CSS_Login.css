@@ -129,7 +129,14 @@ body {
 }
 .wrapper_Register .Name{
     display: flex;
-    padding-top: 30px;
+    padding-top: 40px;
+
+}
+.Name .first_name{
+    margin: 5px;
+}
+.Name .last_name{
+    margin: 5px;
 }
 .first_name input{
     width: 100%;
